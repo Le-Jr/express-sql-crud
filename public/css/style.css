@@ -1,0 +1,115 @@
+*{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;   
+}
+
+h1{
+    text-align: center;
+}
+
+
+.form{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.formcontrol{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    background-color: #23282b;
+    padding: 5px 5px;
+    color: white;
+    height: 25px;
+    width: 400px;
+}
+
+input.button{
+    height: 50px;
+    width: 414px;
+    transition: ease-in-out;
+    transition-duration: 400ms;
+    border: none;
+}
+
+input.button:hover{
+    background-color: #141718;
+    box-shadow: 1px 1px 10px rgb(0, 0, 45);
+    height: 55px;
+
+}
+
+.bold{
+    text-align: center;
+   
+}
+
+.booksContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+    
+  
+}
+
+.books{
+    border-bottom: 2px solid #23282b;
+}
+
+#navbar{
+    margin: 0;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #23282b;
+   
+}
+
+#navbar ul{
+    display: flex;
+    padding: 1rem;
+    gap: .5em;
+}
+
+#navbar ul li{
+    list-style: none;
+}
+
+.containerBooks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.action{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.action input{
+    height: 60px;
+    width: 200px;
+    transition: ease-in-out;
+    transition-duration: 300ms;
+}
+
+.action input:hover{
+    background-color: #141718;
+    box-shadow: 1px 1px 10px rgb(0, 0, 45);
+    height: 65px;
+
+}
